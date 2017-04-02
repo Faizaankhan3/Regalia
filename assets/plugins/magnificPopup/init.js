@@ -5,7 +5,7 @@
 
             $('.ct-videoPopup').magnificPopup({
                 items: {
-                    src: './assets/videos/ballet2.mp4'
+                    src: 'https://www.youtube.com/watch?v=j-izJeAWMqQ'
                 },
                 type: 'iframe', // this is default type
                 removalDelay: 300,
