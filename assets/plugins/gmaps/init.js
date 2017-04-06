@@ -46,7 +46,7 @@
                 if (validatedata(location)) {
                     $this.gmap3({
                         marker: {
-                            //latLng: [40.616439, -74.035540],
+                            latLng: [22.5594679,88.3936539],
                             address: location, options: {
                                 //visible: false
                             }, callback: function (marker) {
@@ -80,15 +80,8 @@
                                 content:
                                     "<div class='ct-mapBox'>" +
                                         "<address>" +
-                                            "<strong>Ballet Box Office: " + "</strong>" +
-                                            "<span> (012) 345-6789" + "</span>" + "<br>" +
-
-                                            "<strong> Monday - Friday: " + "</strong>" +
-                                            "<span> 9:00am-5:30pm" + "</span>" + "<br>" +
-
-                                            "<span> 1234 E. Washington St." + "</span>" + "<br>" +
-
-                                            "<span> Manhattan, NY 56789" + "</span>" +
+                                            "<strong>RCC Institute Of Information Technology" + "</strong>" +
+                                            "<span> Beliaghata, Kolkata, 700105" + "</span>" + "<br>" +
                                         "</address>" +
                                     "</div>"
                                 ,offset: {
