@@ -47,7 +47,7 @@
 
             <li><a href="index.html">Home</a></li>
             <li><a href="#aboutus">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="#section9">Contact Us</a></li>
         </ul>
     </div>
 <div id="ct-js-wrapper" class="ct-pageWrapper">
@@ -80,7 +80,7 @@
                        <ul class="nav navbar-nav navbar-right ct-navbar--fadeIn">
                            <li><a href="index.html">Home</a></li>
                            <li><a href="#aboutus">About Us</a></li>
-                           <li><a href="#">Contact Us</a></li>
+                           <li><a href="#section9">Contact Us</a></li>
                        </ul>
                        <div class="clearfix"></div>
                    </div>
@@ -1038,6 +1038,64 @@ reverberates throughout the stands in the battle of the bands <a href="assets/po
             <!--</div>-->
         <!--</div>-->
     <!--</section>-->
+
+    </section>
+    <section id="section9" class="ct-u-paddingTop60 section">
+        <div class="ct-u-sectionHeader text-center ct-u-paddingBottom20">
+            <h2 class="ct-sectionTitle text-capitalize">Get In Touch <span class="ct-fw-300">with us</span></h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h5 class="ct-titleBox text-uppercase">Contact Us</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <p class="ct-u-paddingTop30 ct-u-size16">We promise to get back to you in 48h or even less:</p>
+                    <form role="form" action="" netlify name="contact" method="post" class="ct-u-paddingBottom80 contactForm validateIt" data-email-subject="Contact Form" data-show-errors="true">
+                        <div class="successMessage alert alert-success ct-u-marginTop30" style="display: none">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            Thank You!
+                        </div>
+                        <div class="errorMessage alert alert-danger ct-u-marginTop30" style="display: none">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            Ups! An error occured. Please try again later.
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="field[name]" placeholder="Your Name" required="required">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="field[email]" placeholder="Your Email" required="required">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <textarea class="form-control" rows="7" name="field[message]" placeholder="Your Message" required="required"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-5">
+                                <button type="submit" class="btn btn-primary btn-lg ct-u-marginTop30">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-7">
+                    <div class="ct-googleMap ct-googlemapStyle ct-u-marginBoth50" data-location="RCC Institute of Information Technology" data-height="445" data-zoom="2" data-snap-ignore="true"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <section class="ct-u-paddingBoth30">
         <div class="ct-socialBar text-center">
             <h4 class="ct-socialTitle"><i class="fa fa-share-alt"></i> Connect with us</h4>
@@ -1232,6 +1290,11 @@ reverberates throughout the stands in the battle of the bands <a href="assets/po
         // other options
     });
 </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoQwDaNQ3CdJK2ClKXw-uuXJ4Lu7MagA0"></script>
+    <script src="./assets/plugins/gmaps/gmap3.min.js"></script>
+    <script src="./assets/plugins/gmaps/init.js"></script>
+
 
 </body>
 
