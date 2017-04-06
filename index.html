@@ -43,7 +43,7 @@
         <ul class="ct-menuMobile-navbar">
 
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">About Us</a></li>
+            <li><a href="#aboutus">About Us</a></li>
             <li><a href="#">Contact Us</a></li>
         </ul>
     </div>
@@ -76,7 +76,7 @@
                    <div class="col-lg-8 col-md-9 col-sm-10">
                        <ul class="nav navbar-nav navbar-right ct-navbar--fadeIn">
                            <li><a href="index.html">Home</a></li>
-                           <li><a href="#">About Us</a></li>
+                           <li><a href="#aboutus">About Us</a></li>
                            <li><a href="#">Contact Us</a></li>
                        </ul>
                        <div class="clearfix"></div>
@@ -255,7 +255,8 @@
                                         </div>
                                     </a>
                                     <h4 class="ct-coursesBox-title"><a href="#" class="ct-u-colorInherit">Band Bash</a></h4>
-                                    <span class="ct-coursesBox-subtitle">The Band Competition <a href="#">Details</a></span>
+                                    <span class="ct-coursesBox-subtitle">An exhilarating event where electricaly charged music
+reverberates throughout the stands in the battle of the bands <a href="assets/posters/bandbash.jpg" class="img-popup-link ">Details</a></span>
                                 </article>
                             </div>
                         </div>
@@ -348,12 +349,18 @@
             </div>
         </div>
         <div class="container">
-            <div class="row">
+            <div class="row" id="aboutus">
                 <div class="col-md-5 col-md-offset-7 ct-md-paddingLeft0">
                     <div class="ct-u-paddingTop60 ct-u-paddingBottom140 text-center-sm text-center-xs animated" data-fx="zoomIn">
-                        <h1 class="text-uppercase ct-u-colorMotive ct-fw-400 ct-u-paddingBottom50">About Us</h1>
+                        <h1 class="text-uppercase ct-u-colorMotive ct-fw-400 ct-u-paddingBottom50" >About Us</h1>
                         <p class="ct-u-size16 ct-u-paddingBottom30 text-justify-xs">
-                            Regalia is the annual cultural fest of RCC Institute Of Information Technology organized by the students welfare comittee of the college. The first edition of Regalia was held in the year 2000. 14th 15th and 16th of April marks the 17th aniversary of Regalia . Rcc invites you to come and witness three days of grandeur and be a part of this musical extravaganza
+                            Regalia is the annual cultural fest of RCC Institute Of Information Technology organized by the student's welfare committee of the college. The first edition of Regalia was held in the year 2000. 14th 15th and 16th of April marks the 17th anniversary of Regalia.
+
+                            It's our legacy here at RCC that, whether we are indulging in academics, or throwing a party at our home ground we rock in all. The regalia evenings are just some of those days when we are in full mood to party and what better guests than your own RCC family and visitors from Tinseltown. Rock bands, musicians, solo instrument players, folk singers - whatever you have on your wishlist will be fond here. So the result is a gala evening full of fun, thrills, and mouth watering food.
+
+                            Also, mixed with the fun is our own home crowd performances where we follow the beats of the thundering tunes of the DJ.
+
+                            Come join us in our craziness, witness three days of grandeur and be a part of this musical extravaganza.
                         </p>
                         <!--<p class="ct-u-size16 ct-u-paddingBottom60 text-justify-xs">-->
                             <!--Easy-to-follow lessons in slow motion with your instructor-->
@@ -1199,6 +1206,13 @@
 
 <script src="assets/js/less.min.js"></script>
 <!-- Style chooser -->
+
+<script>
+    $('.img-popup-link').magnificPopup({
+        type: 'image'
+        // other options
+    });
+</script>
 
 </body>
 
