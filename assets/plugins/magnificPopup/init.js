@@ -5,7 +5,7 @@
 
             $('.ct-videoPopup').magnificPopup({
                 items: {
-                    src: 'https://www.youtube.com/watch?v=j-izJeAWMqQ'
+                    src: 'https://www.youtube.com/watch?v=-nx2V1oB_R0&feature=youtu.be'
                 },
                 type: 'iframe', // this is default type
                 removalDelay: 300,
